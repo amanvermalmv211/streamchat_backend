@@ -29,7 +29,6 @@ const fetchUser = async (req, res, next) => {
         next();
 
     } catch (error) {
-        console.log("Error in fetch middleware: ", error.message);
         res.status(500).json({ message: "Internal Server Error" });
     }
 }

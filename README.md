@@ -1,4 +1,4 @@
-# 📚 StreamChat – Backend
+# 💬 StreamChat – Backend
 
 ## 🟩 Full Stack (MERN) Project – Backend
 
@@ -9,7 +9,7 @@ This is the **backend API** for the StreamChat platform, built using **Node.js**
 ## 📌 Project Purpose
 
 To connect:
-- 🧑🏻‍💻 **Users** with each other in real-time with the help of **socket.io**
+- 👤 **Users** with each other in real-time with the help of **socket.io**
 
 The platform provide real-time chating services, along with messages you can share images also.
 
@@ -19,7 +19,7 @@ The platform provide real-time chating services, along with messages you can sha
 
 - ✅ User registration & and login system
 - 📅 Secured message conversation 
-- 📬 Use Cloudinary for profile image and image send via message
+- ☁️ Use Cloudinary for profile image and image send via message
 - 🧼 socket connection for real-time chat
 
 ---
