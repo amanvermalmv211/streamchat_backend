@@ -69,8 +69,7 @@ export const logout = (req, res) => {
             httpOnly: true,
             secure: true,          // must match cookie when set
             sameSite: "none",      // important for cross-origin
-            path: "/",
-            domain: "streamchat-backend-lt2n.onrender.com"
+            path: "/"
         });
         res.status(200).json({ message: "User log out successfully" });
     } catch (error) {
