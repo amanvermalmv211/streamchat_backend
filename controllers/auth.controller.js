@@ -65,12 +65,12 @@ export const login = async (req, res) => {
 
 export const logout = (req, res) => {
     try {
-        res.clearCookie("jwt", "", {
-            maxAge: 0,
+        res.clearCookie("jwt", {
             httpOnly: true,
             secure: true,          // must match cookie when set
             sameSite: "none",      // important for cross-origin
-            path: "/"
+            path: "/",
+            domain: "streamchat-backend-lt2n.onrender.com"
         });
         res.status(200).json({ message: "User log out successfully" });
     } catch (error) {
